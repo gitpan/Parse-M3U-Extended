@@ -1,0 +1,24 @@
+--- #YAML:1.0
+name:               Parse-M3U-Extended
+version:            0.1
+abstract:           a simple Regexp::Grammars based M3UE parser
+author:
+    - Olof Johansson <olof@cpan.org>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    JSON:              0
+    perl:              5.010000
+    Regexp::Grammars:  0
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.57_05
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4

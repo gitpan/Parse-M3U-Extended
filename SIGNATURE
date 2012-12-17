@@ -1,0 +1,47 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 a940aa20fee876641208a396e1380c3abb66d373 .gitignore
+SHA1 9ded901bda5f5213f2408ff17e9db0d048706c43 Changes
+SHA1 102879f0cce40ec87b295349f509c4db7ea69a0a MANIFEST
+SHA1 94ded5e862136ef293055a024f7435c3f4bc66b7 MANIFEST.SKIP
+SHA1 bd2f35b44040f653ee817a1f73f47d92f07c9a08 META.yml
+SHA1 27a482445616f8c201b0f00a57f8baf8c7a4d340 Makefile.PL
+SHA1 a89a1f9a4e6314a03569fabe4bc2192ca328f53b README
+SHA1 8e3b6149debe9ea5887ad56df733e0b542da253f lib/Parse/M3U/Extended.pm
+SHA1 0041aa9cc5249bb8409f513223ee3b68bbe3a164 t/01-distribution.t
+SHA1 3d05851bfa08441289be998505041cfda61d1f65 t/data/m3u-1.json
+SHA1 1fc25c06d2a83be6a98c64cb0c98edf9bc71b5c6 t/data/m3u-1.m3u
+SHA1 3b0c5dc6280fbcf2578caff40b5471c80234bc99 t/data/m3u-2.json
+SHA1 1757c8ef3eb29004aa53f5178246c94ace3cf968 t/data/m3u-2.m3u
+SHA1 664e945f5d191fc447049f6d268536547bccc303 t/data/m3u-3.json
+SHA1 568389c18f8acb61d940824507cc486c3a8c6a98 t/data/m3u-3.m3u
+SHA1 0f71611cbb6812558f1d5a3ba15b7543f1cace10 t/data/m3ue-1.json
+SHA1 2823fb4811bfbef7d97cc41f8caf5bca5e4e6ac0 t/data/m3ue-1.m3ue
+SHA1 132690afbc493a1048a05a63c0caf5ab4f221daf t/data/m3ue-2.json
+SHA1 717d4f89d61572a5a26759aa968199ccffb47a53 t/data/m3ue-2.m3ue
+SHA1 40709633805902a94af44e9954b7fa67f41b80ea t/m3u.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEbBAEBAgAGBQJQz5GgAAoJEPoSOGhqL2in1A4H+PUX2NKyv484v0ZwnhuKaKEW
+ZWQvSKvA0m/u4swEa06cie+JHDnL48Kj4XALp/3o9pLYREDbKqWOZqvmgCxwFFLO
+Jv7NE7RgiZZSlmWFIk4e6s/l6zOV+EE5YrSa9R/LE+2C5J4p3vC+2OJVC+gjGOKG
+ahEdLrHi6p3FVKMlohOmaIEDV2QnSllkpQgVbuA6u0qb0jc7a9WBRoAjGdMDSctk
+dJjfHz7USDvdga/RFIWrmK99WQMcG+nXlKOjih//LEERK5NbAreF4buU2SuZq5+7
+10pZHyKH5lNcDXLbq/shA8a1RZ0AH8T5+aB/Yznm6I4j0ctsgic3odW99xVeVA==
+=QCKw
+-----END PGP SIGNATURE-----
